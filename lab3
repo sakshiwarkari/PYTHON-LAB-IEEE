@@ -1,0 +1,52 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO1YGrfKH/4i/hQjUjawans",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sakshiwarkari/PYTHON-LAB-IEEE/blob/main/lab3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yH6GrtklvZYX"
+      },
+      "outputs": [],
+      "source": [
+        "QUE1\n",
+        "\n",
+        "The best value of angle constraint is 0.6737at 30 and best value of shear constraint is 0.6652 at 1.2.\n",
+        "Earlier the accuracy was 0.6472 without using any agumantation.But now it is increased at some extent with the help of agumantation.\n",
+        "\n",
+        "QUE2\n",
+        "\n",
+        "Yes increasing the number of agumentation improve the accuracy of sample.It is very useful in a situations where the training dataset is limited or the model is prone to overfitting.\n",
+        "Data augmentation involves applying various transformations to the training data to generate additional samples, which can help the model generalize better.\n",
+        "Augmentations can include operations like rotation, scaling, cropping, flipping, brightness adjustments, and more.\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
