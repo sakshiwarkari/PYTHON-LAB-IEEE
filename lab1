@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMpYy7y8GrR/dkzxqKiHKuZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sakshiwarkari/PYTHON-LAB-IEEE/blob/main/lab1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ZmoE_iEN7UnG"
+      },
+      "outputs": [],
+      "source": [
+        "QUE 1\n",
+        "\n",
+        "Best combination of features:\n",
+        "Determining the best combination of features typically involves conducting experiments and using machine learning techniques. You can start by training a classifier using different ombinations of features and evaluating their performance on a validation or test dataset.\n",
+        "The combination that leads to the highest accuracy or desired metric may be considered the best. Feature selection and dimensionality reduction techniques like PCA can also help identify important features.\n",
+        "\n",
+        "QUE2\n",
+        "\n",
+        "Test/Visualizing four or more features:\n",
+        "Feature testing is defined as the process of testing the changes made to the software, in form of modifications or new features, to confirm they are correctly functioning. Feature testing is used to validate the addition of new features to the original software and also test its performance.\n",
+        "Variance Threshold:The variance threshold is a simple baseline approach to feature selection. It removes all features whose variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e., features with the same value in all samples.\n",
+        "\n",
+        "Pairwise Plots: Create scatterplots for pairs of features to identify patterns and correlations.\n",
+        "\n",
+        "Chi-square Test :The Chi-square test is used for categorical features in a dataset. We calculate Chi-square between each feature and the target and select the desired number of features with the best Chi-square scores.\n",
+        "\n",
+        "\n",
+        "QUE3\n",
+        "Creating your own features:\n",
+        "You can create new features based on domain knowledge or hypotheses about your data. For image data, this might involve extracting texture, color, or shape-related features using techniques like Gabor filters, color histograms, or HOG (Histogram of Oriented Gradients).\n",
+        "\n",
+        "QUE 4\n",
+        "Features for Different Classes:\n",
+        "The features you extract may or may not work well for different classes other than 0 and 1. It depends on the nature of the classes and the dataset. It's essential to understand the characteristics of the data and experiment with different feature sets. Some features might be informative for one set of classes but not for others.\n",
+        "\n",
+        "QUE5\n",
+        "Take more that two classes at a time:\n",
+        "If you have more than two classes, you can extend your approach to multiclass classification. Techniques like one-vs-all (OvA) or softmax regression can be used with appropriate modifications to handle multiple classes. Your feature extraction process should remain consistent, but you'll adapt your classifier to handle multiple classes."
+      ]
+    }
+  ]
+}
